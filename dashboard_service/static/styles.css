@@ -1,0 +1,37 @@
+/* HotelOS panel uchun maxsus uslublar */
+
+.room-card {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 3.4rem;
+  height: 3.4rem;
+  border-radius: 0.5rem;
+  font-size: 0.7rem;
+  margin: 2px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.room-card:hover {
+  transform: scale(1.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+}
+
+.status-clean { background: rgb(16 185 129); }
+.status-occupied { background: rgb(59 130 246); }
+.status-dirty { background: rgb(245 158 11); }
+.status-cleaning { background: rgb(168 85 247); }
+.status-maintenance { background: rgb(239 68 68); }
+
+.floor-label {
+  width: 100%;
+  font-size: 0.75rem;
+  color: rgb(148 163 184);
+  margin-bottom: 4px;
+}
+
+.urgency-critical { border-left: 3px solid rgb(239 68 68); }
+.urgency-high { border-left: 3px solid rgb(245 158 11); }
+.urgency-normal { border-left: 3px solid rgb(59 130 246); }
+.urgency-low { border-left: 3px solid rgb(148 163 184); }
