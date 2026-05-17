@@ -206,4 +206,4 @@ tegishli.
 
 ---
 
-*Yoqubjon · BTEC Pearson 4-Modul: Dasturlash · 2026 May*
+*Yoqubjon Abdisalimov · BTEC Pearson 4-Modul: Dasturlash · 2026 May*
