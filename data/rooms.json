@@ -1,0 +1,1202 @@
+[
+  {
+    "number": 101,
+    "floor": 1,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": true,
+    "near_stairs": true,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 102,
+    "floor": 1,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": true,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 103,
+    "floor": 1,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 104,
+    "floor": 1,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 105,
+    "floor": 1,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 106,
+    "floor": 1,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 107,
+    "floor": 1,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 108,
+    "floor": 1,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 109,
+    "floor": 1,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 110,
+    "floor": 1,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 111,
+    "floor": 1,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 112,
+    "floor": 1,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 113,
+    "floor": 1,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 114,
+    "floor": 1,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 115,
+    "floor": 1,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 116,
+    "floor": 1,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 117,
+    "floor": 1,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 118,
+    "floor": 1,
+    "room_type": "suite",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "280.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 119,
+    "floor": 1,
+    "room_type": "suite",
+    "status": "clean",
+    "near_lift": true,
+    "near_stairs": false,
+    "nightly_rate": "280.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 120,
+    "floor": 1,
+    "room_type": "accessible",
+    "status": "clean",
+    "near_lift": true,
+    "near_stairs": true,
+    "nightly_rate": "110.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 201,
+    "floor": 2,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": true,
+    "near_stairs": true,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 202,
+    "floor": 2,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": true,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 203,
+    "floor": 2,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 204,
+    "floor": 2,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 205,
+    "floor": 2,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 206,
+    "floor": 2,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 207,
+    "floor": 2,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 208,
+    "floor": 2,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 209,
+    "floor": 2,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 210,
+    "floor": 2,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 211,
+    "floor": 2,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 212,
+    "floor": 2,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 213,
+    "floor": 2,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 214,
+    "floor": 2,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 215,
+    "floor": 2,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 216,
+    "floor": 2,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 217,
+    "floor": 2,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 218,
+    "floor": 2,
+    "room_type": "suite",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "280.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 219,
+    "floor": 2,
+    "room_type": "suite",
+    "status": "clean",
+    "near_lift": true,
+    "near_stairs": false,
+    "nightly_rate": "280.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 220,
+    "floor": 2,
+    "room_type": "accessible",
+    "status": "clean",
+    "near_lift": true,
+    "near_stairs": true,
+    "nightly_rate": "110.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 301,
+    "floor": 3,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": true,
+    "near_stairs": true,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 302,
+    "floor": 3,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": true,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 303,
+    "floor": 3,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 304,
+    "floor": 3,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 305,
+    "floor": 3,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 306,
+    "floor": 3,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 307,
+    "floor": 3,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 308,
+    "floor": 3,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 309,
+    "floor": 3,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 310,
+    "floor": 3,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 311,
+    "floor": 3,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 312,
+    "floor": 3,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 313,
+    "floor": 3,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 314,
+    "floor": 3,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 315,
+    "floor": 3,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 316,
+    "floor": 3,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 317,
+    "floor": 3,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 318,
+    "floor": 3,
+    "room_type": "suite",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "280.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 319,
+    "floor": 3,
+    "room_type": "suite",
+    "status": "clean",
+    "near_lift": true,
+    "near_stairs": false,
+    "nightly_rate": "280.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 320,
+    "floor": 3,
+    "room_type": "accessible",
+    "status": "clean",
+    "near_lift": true,
+    "near_stairs": true,
+    "nightly_rate": "110.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 401,
+    "floor": 4,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": true,
+    "near_stairs": true,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 402,
+    "floor": 4,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": true,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 403,
+    "floor": 4,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 404,
+    "floor": 4,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 405,
+    "floor": 4,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 406,
+    "floor": 4,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 407,
+    "floor": 4,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 408,
+    "floor": 4,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 409,
+    "floor": 4,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 410,
+    "floor": 4,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 411,
+    "floor": 4,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 412,
+    "floor": 4,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 413,
+    "floor": 4,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 414,
+    "floor": 4,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 415,
+    "floor": 4,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 416,
+    "floor": 4,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 417,
+    "floor": 4,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 418,
+    "floor": 4,
+    "room_type": "suite",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "280.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 419,
+    "floor": 4,
+    "room_type": "suite",
+    "status": "clean",
+    "near_lift": true,
+    "near_stairs": false,
+    "nightly_rate": "280.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 420,
+    "floor": 4,
+    "room_type": "accessible",
+    "status": "clean",
+    "near_lift": true,
+    "near_stairs": true,
+    "nightly_rate": "110.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 501,
+    "floor": 5,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": true,
+    "near_stairs": true,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 502,
+    "floor": 5,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": true,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 503,
+    "floor": 5,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 504,
+    "floor": 5,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 505,
+    "floor": 5,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 506,
+    "floor": 5,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 507,
+    "floor": 5,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 508,
+    "floor": 5,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 509,
+    "floor": 5,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 510,
+    "floor": 5,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 511,
+    "floor": 5,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 512,
+    "floor": 5,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 513,
+    "floor": 5,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 514,
+    "floor": 5,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 515,
+    "floor": 5,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 516,
+    "floor": 5,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 517,
+    "floor": 5,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 518,
+    "floor": 5,
+    "room_type": "suite",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "280.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 519,
+    "floor": 5,
+    "room_type": "suite",
+    "status": "clean",
+    "near_lift": true,
+    "near_stairs": false,
+    "nightly_rate": "280.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 520,
+    "floor": 5,
+    "room_type": "accessible",
+    "status": "clean",
+    "near_lift": true,
+    "near_stairs": true,
+    "nightly_rate": "110.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 601,
+    "floor": 6,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": true,
+    "near_stairs": true,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 602,
+    "floor": 6,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": true,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 603,
+    "floor": 6,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 604,
+    "floor": 6,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 605,
+    "floor": 6,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 606,
+    "floor": 6,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 607,
+    "floor": 6,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 608,
+    "floor": 6,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 609,
+    "floor": 6,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 610,
+    "floor": 6,
+    "room_type": "single",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "85.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 611,
+    "floor": 6,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 612,
+    "floor": 6,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 613,
+    "floor": 6,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 614,
+    "floor": 6,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 615,
+    "floor": 6,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 616,
+    "floor": 6,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 617,
+    "floor": 6,
+    "room_type": "double",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "125.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 618,
+    "floor": 6,
+    "room_type": "suite",
+    "status": "clean",
+    "near_lift": false,
+    "near_stairs": false,
+    "nightly_rate": "280.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 619,
+    "floor": 6,
+    "room_type": "suite",
+    "status": "clean",
+    "near_lift": true,
+    "near_stairs": false,
+    "nightly_rate": "280.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  },
+  {
+    "number": 620,
+    "floor": 6,
+    "room_type": "accessible",
+    "status": "clean",
+    "near_lift": true,
+    "near_stairs": true,
+    "nightly_rate": "110.00",
+    "status_changed_at": "2026-05-17T00:00:00+00:00"
+  }
+]
