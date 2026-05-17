@@ -1,0 +1,23 @@
+version: "3.9"
+
+# HotelOS uchun lokal Redis (xabar brokeri sifatida) ishga tushiruvchi compose fayl.
+# Ishga tushirish: docker compose up -d
+# To'xtatish:    docker compose down
+
+services:
+  redis:
+    image: redis:7.4-alpine
+    container_name: hotelos-redis
+    ports:
+      - "6379:6379"
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes:
+      - hotelos-redis-data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+volumes:
+  hotelos-redis-data:
