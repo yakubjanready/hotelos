@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" font-family="'Segoe UI', Arial, sans-serif">
+  <!-- Dark background -->
+  <rect width="1280" height="800" fill="#0f172a"/>
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="1280" height="56" fill="#1e293b"/>
+  <text x="24" y="36" fill="#f1f5f9" font-size="18" font-weight="700">🏨 HotelOS</text>
+  <text x="125" y="36" fill="#64748b" font-size="11">v1.0.0</text>
+
+  <!-- Connection status -->
+  <circle cx="900" cy="28" r="5" fill="#10b981"/>
+  <text x="912" y="33" fill="#f1f5f9" font-size="12">Ulangan</text>
+  <text x="975" y="33" fill="#64748b" font-size="11">[14:23:07] room.cleaned :: xona 204</text>
+  <text x="1220" y="33" fill="#64748b" font-size="12">Chiqish</text>
+
+  <!-- Stats cards -->
+  <g transform="translate(24, 80)">
+    <rect width="220" height="64" rx="8" fill="#1e293b"/>
+    <text x="14" y="22" fill="#94a3b8" font-size="11">Jami xonalar</text>
+    <text x="14" y="50" fill="#f1f5f9" font-size="28" font-weight="700">120</text>
+  </g>
+  <g transform="translate(258, 80)">
+    <rect width="220" height="64" rx="8" fill="#064e3b" opacity="0.5"/>
+    <rect width="220" height="64" rx="8" fill="none" stroke="#10b981" stroke-width="1"/>
+    <text x="14" y="22" fill="#6ee7b7" font-size="11">Toza</text>
+    <text x="14" y="50" fill="#f1f5f9" font-size="28" font-weight="700">87</text>
+  </g>
+  <g transform="translate(492, 80)">
+    <rect width="220" height="64" rx="8" fill="#1e3a8a" opacity="0.5"/>
+    <text x="14" y="22" fill="#93c5fd" font-size="11">Band</text>
+    <text x="14" y="50" fill="#f1f5f9" font-size="28" font-weight="700">28</text>
+  </g>
+  <g transform="translate(726, 80)">
+    <rect width="220" height="64" rx="8" fill="#78350f" opacity="0.5"/>
+    <text x="14" y="22" fill="#fcd34d" font-size="11">Iflos/Tozalanmoqda</text>
+    <text x="14" y="50" fill="#f1f5f9" font-size="28" font-weight="700">5</text>
+  </g>
+  <g transform="translate(960, 80)">
+    <rect width="220" height="64" rx="8" fill="#7f1d1d" opacity="0.5"/>
+    <text x="14" y="22" fill="#fca5a5" font-size="11">Ochiq muammolar</text>
+    <text x="14" y="50" fill="#f1f5f9" font-size="28" font-weight="700">3</text>
+  </g>
+
+  <!-- Main grid - rooms -->
+  <g transform="translate(24, 164)">
+    <rect width="800" height="510" rx="12" fill="#1e293b"/>
+    <text x="20" y="32" fill="#f1f5f9" font-size="15" font-weight="600">Xonalar tahtaси</text>
+    <text x="780" y="32" fill="#94a3b8" font-size="11" text-anchor="end">
+      <tspan fill="#10b981">●</tspan> Toza
+      <tspan dx="6" fill="#3b82f6">●</tspan> Band
+      <tspan dx="6" fill="#f59e0b">●</tspan> Iflos
+      <tspan dx="6" fill="#a855f7">●</tspan> Tozalanmoqda
+      <tspan dx="6" fill="#ef4444">●</tspan> Texnik
+    </text>
+
+    <!-- Floor labels and room grids -->
+    <!-- helper: 6 floors, each with 20 rooms -->
+  </g>
+
+  <!-- Room cells - floor 6 -->
+  <g transform="translate(40, 215)">
+    <text fill="#64748b" font-size="11" font-weight="600">6-qavat</text>
+  </g>
+  <g transform="translate(40, 222)">
+    <!-- 20 rooms on floor 6, mostly clean (green) with a few exceptions -->
+    <g id="floor6">
+      <rect x="0" y="0" width="36" height="36" rx="5" fill="#10b981"/>
+      <text x="18" y="22" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">601</text>
+      <rect x="40" y="0" width="36" height="36" rx="5" fill="#10b981"/>
+      <text x="58" y="22" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">602</text>
+      <rect x="80" y="0" width="36" height="36" rx="5" fill="#3b82f6"/>
+      <text x="98" y="22" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">603</text>
+      <rect x="120" y="0" width="36" height="36" rx="5" fill="#10b981"/>
+      <text x="138" y="22" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">604</text>
+      <rect x="160" y="0" width="36" height="36" rx="5" fill="#10b981"/>
+      <text x="178" y="22" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">605</text>
+      <rect x="200" y="0" width="36" height="36" rx="5" fill="#3b82f6"/>
+      <text x="218" y="22" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">606</text>
+      <rect x="240" y="0" width="36" height="36" rx="5" fill="#10b981"/>
+      <text x="258" y="22" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">607</text>
+      <rect x="280" y="0" width="36" height="36" rx="5" fill="#10b981"/>
+      <text x="298" y="22" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">608</text>
+      <rect x="320" y="0" width="36" height="36" rx="5" fill="#3b82f6"/>
+      <text x="338" y="22" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">609</text>
+      <rect x="360" y="0" width="36" height="36" rx="5" fill="#10b981"/>
+      <text x="378" y="22" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">610</text>
+      <rect x="400" y="0" width="36" height="36" rx="5" fill="#10b981"/>
+      <text x="418" y="22" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">611</text>
+      <rect x="440" y="0" width="36" height="36" rx="5" fill="#3b82f6"/>
+      <text x="458" y="22" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">612</text>
+      <rect x="480" y="0" width="36" height="36" rx="5" fill="#10b981"/>
+      <text x="498" y="22" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">613</text>
+      <rect x="520" y="0" width="36" height="36" rx="5" fill="#f59e0b"/>
+      <text x="538" y="22" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">614</text>
+      <rect x="560" y="0" width="36" height="36" rx="5" fill="#10b981"/>
+      <text x="578" y="22" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">615</text>
+      <rect x="600" y="0" width="36" height="36" rx="5" fill="#3b82f6"/>
+      <text x="618" y="22" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">616</text>
+      <rect x="640" y="0" width="36" height="36" rx="5" fill="#10b981"/>
+      <text x="658" y="22" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">617</text>
+      <rect x="680" y="0" width="36" height="36" rx="5" fill="#10b981"/>
+      <text x="698" y="22" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">618</text>
+      <rect x="720" y="0" width="36" height="36" rx="5" fill="#10b981"/>
+      <text x="738" y="22" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">619</text>
+      <rect x="760" y="0" width="36" height="36" rx="5" fill="#10b981"/>
+      <text x="778" y="22" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">620</text>
+    </g>
+  </g>
+
+  <!-- Floor 5..1 (simpler representation, similar pattern) -->
+  <g font-size="10" fill="#fff" font-weight="700" text-anchor="middle">
+    <!-- Floor 5 -->
+    <text x="40" y="280" fill="#64748b" font-size="11" font-weight="600" text-anchor="start">5-qavat</text>
+    <g transform="translate(40, 286)">
+      <rect x="0" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="18" y="22">501</text>
+      <rect x="40" y="0" width="36" height="36" rx="5" fill="#3b82f6"/><text x="58" y="22">502</text>
+      <rect x="80" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="98" y="22">503</text>
+      <rect x="120" y="0" width="36" height="36" rx="5" fill="#a855f7"/><text x="138" y="22">504</text>
+      <rect x="160" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="178" y="22">505</text>
+      <rect x="200" y="0" width="36" height="36" rx="5" fill="#3b82f6"/><text x="218" y="22">506</text>
+      <rect x="240" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="258" y="22">507</text>
+      <rect x="280" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="298" y="22">508</text>
+      <rect x="320" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="338" y="22">509</text>
+      <rect x="360" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="378" y="22">510</text>
+      <rect x="400" y="0" width="36" height="36" rx="5" fill="#3b82f6"/><text x="418" y="22">511</text>
+      <rect x="440" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="458" y="22">512</text>
+      <rect x="480" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="498" y="22">513</text>
+      <rect x="520" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="538" y="22">514</text>
+      <rect x="560" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="578" y="22">515</text>
+      <rect x="600" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="618" y="22">516</text>
+      <rect x="640" y="0" width="36" height="36" rx="5" fill="#3b82f6"/><text x="658" y="22">517</text>
+      <rect x="680" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="698" y="22">518</text>
+      <rect x="720" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="738" y="22">519</text>
+      <rect x="760" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="778" y="22">520</text>
+    </g>
+
+    <text x="40" y="345" fill="#64748b" font-size="11" font-weight="600" text-anchor="start">4-qavat</text>
+    <g transform="translate(40, 351)">
+      <rect x="0" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="18" y="22">401</text>
+      <rect x="40" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="58" y="22">402</text>
+      <rect x="80" y="0" width="36" height="36" rx="5" fill="#3b82f6"/><text x="98" y="22">403</text>
+      <rect x="120" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="138" y="22">404</text>
+      <rect x="160" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="178" y="22">405</text>
+      <rect x="200" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="218" y="22">406</text>
+      <rect x="240" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="258" y="22">407</text>
+      <rect x="280" y="0" width="36" height="36" rx="5" fill="#3b82f6"/><text x="298" y="22">408</text>
+      <rect x="320" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="338" y="22">409</text>
+      <rect x="360" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="378" y="22">410</text>
+      <rect x="400" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="418" y="22">411</text>
+      <rect x="440" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="458" y="22">412</text>
+      <rect x="480" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="498" y="22">413</text>
+      <rect x="520" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="538" y="22">414</text>
+      <rect x="560" y="0" width="36" height="36" rx="5" fill="#ef4444"/><text x="578" y="22">415</text>
+      <rect x="600" y="0" width="36" height="36" rx="5" fill="#3b82f6"/><text x="618" y="22">416</text>
+      <rect x="640" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="658" y="22">417</text>
+      <rect x="680" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="698" y="22">418</text>
+      <rect x="720" y="0" width="36" height="36" rx="5" fill="#3b82f6"/><text x="738" y="22">419</text>
+      <rect x="760" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="778" y="22">420</text>
+    </g>
+
+    <text x="40" y="410" fill="#64748b" font-size="11" font-weight="600" text-anchor="start">3-qavat</text>
+    <g transform="translate(40, 416)">
+      <rect x="0" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="18" y="22">301</text>
+      <rect x="40" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="58" y="22">302</text>
+      <rect x="80" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="98" y="22">303</text>
+      <rect x="120" y="0" width="36" height="36" rx="5" fill="#3b82f6"/><text x="138" y="22">304</text>
+      <rect x="160" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="178" y="22">305</text>
+      <rect x="200" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="218" y="22">306</text>
+      <rect x="240" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="258" y="22">307</text>
+      <rect x="280" y="0" width="36" height="36" rx="5" fill="#3b82f6"/><text x="298" y="22">308</text>
+      <rect x="320" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="338" y="22">309</text>
+      <rect x="360" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="378" y="22">310</text>
+      <rect x="400" y="0" width="36" height="36" rx="5" fill="#3b82f6"/><text x="418" y="22">311</text>
+      <rect x="440" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="458" y="22">312</text>
+      <rect x="480" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="498" y="22">313</text>
+      <rect x="520" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="538" y="22">314</text>
+      <rect x="560" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="578" y="22">315</text>
+      <rect x="600" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="618" y="22">316</text>
+      <rect x="640" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="658" y="22">317</text>
+      <rect x="680" y="0" width="36" height="36" rx="5" fill="#3b82f6"/><text x="698" y="22">318</text>
+      <rect x="720" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="738" y="22">319</text>
+      <rect x="760" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="778" y="22">320</text>
+    </g>
+
+    <text x="40" y="475" fill="#64748b" font-size="11" font-weight="600" text-anchor="start">2-qavat</text>
+    <g transform="translate(40, 481)">
+      <rect x="0" y="0" width="36" height="36" rx="5" fill="#a855f7"/><text x="18" y="22">201</text>
+      <rect x="40" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="58" y="22">202</text>
+      <rect x="80" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="98" y="22">203</text>
+      <rect x="120" y="0" width="36" height="36" rx="5" fill="#f59e0b"/><text x="138" y="22">204</text>
+      <rect x="160" y="0" width="36" height="36" rx="5" fill="#3b82f6"/><text x="178" y="22">205</text>
+      <rect x="200" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="218" y="22">206</text>
+      <rect x="240" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="258" y="22">207</text>
+      <rect x="280" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="298" y="22">208</text>
+      <rect x="320" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="338" y="22">209</text>
+      <rect x="360" y="0" width="36" height="36" rx="5" fill="#3b82f6"/><text x="378" y="22">210</text>
+      <rect x="400" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="418" y="22">211</text>
+      <rect x="440" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="458" y="22">212</text>
+      <rect x="480" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="498" y="22">213</text>
+      <rect x="520" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="538" y="22">214</text>
+      <rect x="560" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="578" y="22">215</text>
+      <rect x="600" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="618" y="22">216</text>
+      <rect x="640" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="658" y="22">217</text>
+      <rect x="680" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="698" y="22">218</text>
+      <rect x="720" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="738" y="22">219</text>
+      <rect x="760" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="778" y="22">220</text>
+    </g>
+
+    <text x="40" y="540" fill="#64748b" font-size="11" font-weight="600" text-anchor="start">1-qavat</text>
+    <g transform="translate(40, 546)">
+      <rect x="0" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="18" y="22">101</text>
+      <rect x="40" y="0" width="36" height="36" rx="5" fill="#3b82f6"/><text x="58" y="22">102</text>
+      <rect x="80" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="98" y="22">103</text>
+      <rect x="120" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="138" y="22">104</text>
+      <rect x="160" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="178" y="22">105</text>
+      <rect x="200" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="218" y="22">106</text>
+      <rect x="240" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="258" y="22">107</text>
+      <rect x="280" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="298" y="22">108</text>
+      <rect x="320" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="338" y="22">109</text>
+      <rect x="360" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="378" y="22">110</text>
+      <rect x="400" y="0" width="36" height="36" rx="5" fill="#3b82f6"/><text x="418" y="22">111</text>
+      <rect x="440" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="458" y="22">112</text>
+      <rect x="480" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="498" y="22">113</text>
+      <rect x="520" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="538" y="22">114</text>
+      <rect x="560" y="0" width="36" height="36" rx="5" fill="#ef4444"/><text x="578" y="22">115</text>
+      <rect x="600" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="618" y="22">116</text>
+      <rect x="640" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="658" y="22">117</text>
+      <rect x="680" y="0" width="36" height="36" rx="5" fill="#3b82f6"/><text x="698" y="22">118</text>
+      <rect x="720" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="738" y="22">119</text>
+      <rect x="760" y="0" width="36" height="36" rx="5" fill="#10b981"/><text x="778" y="22">120</text>
+    </g>
+  </g>
+
+  <!-- Right panel: orders -->
+  <g transform="translate(848, 164)">
+    <rect width="408" height="240" rx="12" fill="#1e293b"/>
+    <text x="20" y="32" fill="#f1f5f9" font-size="15" font-weight="600">Faol buyurtmalar</text>
+
+    <g transform="translate(16, 50)">
+      <rect width="376" height="48" rx="6" fill="#334155"/>
+      <text x="14" y="18" fill="#64748b" font-size="10" font-family="Consolas, monospace">ORD-3f4a92b1</text>
+      <text x="14" y="36" fill="#f1f5f9" font-size="12">Xona 301 · <tspan fill="#34d399">preparing</tspan></text>
+      <text x="362" y="32" fill="#f1f5f9" font-size="13" font-weight="600" text-anchor="end">15.50</text>
+    </g>
+    <g transform="translate(16, 106)">
+      <rect width="376" height="48" rx="6" fill="#334155"/>
+      <text x="14" y="18" fill="#64748b" font-size="10" font-family="Consolas, monospace">ORD-a82d11ce</text>
+      <text x="14" y="36" fill="#f1f5f9" font-size="12">Xona 504 · <tspan fill="#34d399">delivering</tspan></text>
+      <text x="362" y="32" fill="#f1f5f9" font-size="13" font-weight="600" text-anchor="end">23.50</text>
+    </g>
+    <g transform="translate(16, 162)">
+      <rect width="376" height="48" rx="6" fill="#334155"/>
+      <text x="14" y="18" fill="#64748b" font-size="10" font-family="Consolas, monospace">ORD-bb15ef02</text>
+      <text x="14" y="36" fill="#f1f5f9" font-size="12">Xona 612 · <tspan fill="#34d399">received</tspan></text>
+      <text x="362" y="32" fill="#f1f5f9" font-size="13" font-weight="600" text-anchor="end">11.00</text>
+    </g>
+  </g>
+
+  <!-- Right panel: maintenance -->
+  <g transform="translate(848, 420)">
+    <rect width="408" height="254" rx="12" fill="#1e293b"/>
+    <text x="20" y="32" fill="#f1f5f9" font-size="15" font-weight="600">Texnik muammolar</text>
+
+    <g transform="translate(16, 50)">
+      <rect width="376" height="64" rx="6" fill="#334155"/>
+      <rect width="3" height="64" rx="2" fill="#ef4444"/>
+      <text x="14" y="20" fill="#f1f5f9" font-size="12" font-weight="600">Xona 115</text>
+      <text x="362" y="20" fill="#ef4444" font-size="10" font-weight="700" text-anchor="end">CRITICAL</text>
+      <text x="14" y="38" fill="#cbd5e1" font-size="11">Dush singan, suv tushmoqda</text>
+      <text x="14" y="56" fill="#94a3b8" font-size="10">Texnik: Aziz Karimov</text>
+    </g>
+    <g transform="translate(16, 124)">
+      <rect width="376" height="64" rx="6" fill="#334155"/>
+      <rect width="3" height="64" rx="2" fill="#f59e0b"/>
+      <text x="14" y="20" fill="#f1f5f9" font-size="12" font-weight="600">Xona 415</text>
+      <text x="362" y="20" fill="#fbbf24" font-size="10" font-weight="700" text-anchor="end">HIGH</text>
+      <text x="14" y="38" fill="#cbd5e1" font-size="11">Konditsioner ishlamayapti</text>
+      <text x="14" y="56" fill="#94a3b8" font-size="10">Texnik: tayinlanmagan</text>
+    </g>
+    <g transform="translate(16, 198)">
+      <rect width="376" height="44" rx="6" fill="#334155"/>
+      <rect width="3" height="44" rx="2" fill="#3b82f6"/>
+      <text x="14" y="20" fill="#f1f5f9" font-size="12" font-weight="600">Xona 308</text>
+      <text x="362" y="20" fill="#60a5fa" font-size="10" font-weight="700" text-anchor="end">NORMAL</text>
+      <text x="14" y="38" fill="#cbd5e1" font-size="11">TV pulti yo'q</text>
+    </g>
+  </g>
+
+  <!-- Bottom: event stream -->
+  <g transform="translate(24, 694)">
+    <rect width="1232" height="92" rx="12" fill="#1e293b"/>
+    <text x="20" y="22" fill="#f1f5f9" font-size="13" font-weight="600">Hodisalar oqimi (oxirgi 5)</text>
+    <text x="20" y="42" fill="#94a3b8" font-size="11" font-family="Consolas, monospace">[14:23:07] room.cleaned :: xona 204</text>
+    <text x="20" y="56" fill="#94a3b8" font-size="11" font-family="Consolas, monospace">[14:22:51] order.preparing :: xona 504</text>
+    <text x="20" y="70" fill="#94a3b8" font-size="11" font-family="Consolas, monospace">[14:22:33] issue.assigned :: xona 115 (Aziz Karimov)</text>
+    <text x="20" y="84" fill="#94a3b8" font-size="11" font-family="Consolas, monospace">[14:21:58] room.occupied :: xona 311</text>
+  </g>
+</svg>

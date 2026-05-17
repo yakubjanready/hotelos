@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <marker id="arrow2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1e293b"/>
+    </marker>
+    <style>
+      .start { fill: #34d399; stroke: #047857; stroke-width: 2; }
+      .end { fill: #34d399; stroke: #047857; stroke-width: 2; }
+      .err { fill: #f87171; stroke: #991b1b; stroke-width: 2; }
+      .process { fill: #bfdbfe; stroke: #1e40af; stroke-width: 2; }
+      .decision { fill: #fde68a; stroke: #b45309; stroke-width: 2; }
+      .label { fill: #1e293b; font-weight: 500; text-anchor: middle; }
+      .label-bold { fill: #1e293b; font-weight: 700; text-anchor: middle; }
+      .label-small { fill: #475569; font-size: 11px; text-anchor: middle; }
+      .edge-label { fill: #6b21a8; font-weight: 600; font-size: 11px; }
+      .edge { stroke: #1e293b; stroke-width: 1.5; fill: none; }
+    </style>
+  </defs>
+
+  <text x="400" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">
+    2-Rasm: Hisob-Kitob Algoritmi (calculate_bill) — Blok-Sxema
+  </text>
+  <text x="400" y="50" text-anchor="middle" font-size="12" fill="#64748b">
+    Check-out: tunlar + xona xizmati + qo'shimcha to'lovlar + chegirma
+  </text>
+
+  <ellipse cx="400" cy="90" rx="80" ry="22" class="start"/>
+  <text x="400" y="95" class="label-bold">BOSHLASH</text>
+  <line x1="400" y1="112" x2="400" y2="135" class="edge" marker-end="url(#arrow2)"/>
+
+  <!-- Input -->
+  <rect x="230" y="135" width="340" height="65" rx="6" class="process"/>
+  <text x="400" y="155" class="label-bold">KIRISH</text>
+  <text x="400" y="172" class="label">booking, room_service_orders,</text>
+  <text x="400" y="189" class="label">minibar, late_checkout, discount_pct</text>
+
+  <line x1="400" y1="200" x2="400" y2="225" class="edge" marker-end="url(#arrow2)"/>
+
+  <!-- Validate discount -->
+  <polygon points="400,225 580,275 400,325 220,275" class="decision"/>
+  <text x="400" y="270" class="label-bold">discount &lt; 0 yoki &gt; 100?</text>
+  <text x="400" y="290" class="label-small">(chegaraviy holat)</text>
+
+  <line x1="580" y1="275" x2="700" y2="275" class="edge" marker-end="url(#arrow2)"/>
+  <text x="630" y="270" class="edge-label">HA</text>
+  <rect x="700" y="250" width="90" height="50" rx="6" class="err"/>
+  <text x="745" y="270" class="label-bold">XATO</text>
+  <text x="745" y="287" class="label-small">ValueError</text>
+
+  <line x1="400" y1="325" x2="400" y2="350" class="edge" marker-end="url(#arrow2)"/>
+  <text x="415" y="345" class="edge-label">YO'Q</text>
+
+  <!-- Determine nights -->
+  <polygon points="400,350 580,400 400,450 220,400" class="decision"/>
+  <text x="400" y="395" class="label-bold">actual_checkout berilgan?</text>
+  <text x="400" y="415" class="label-small">(erta check-out qo'llab-quvvatlash)</text>
+
+  <line x1="220" y1="400" x2="90" y2="400" class="edge" marker-end="url(#arrow2)"/>
+  <text x="155" y="395" class="edge-label">HA</text>
+  <rect x="10" y="370" width="80" height="60" rx="6" class="process"/>
+  <text x="50" y="390" class="label">nights =</text>
+  <text x="50" y="407" class="label">min(booked,</text>
+  <text x="50" y="423" class="label">actual)</text>
+  <line x1="50" y1="430" x2="50" y2="480" class="edge"/>
+  <line x1="50" y1="480" x2="400" y2="480" class="edge" marker-end="url(#arrow2)"/>
+
+  <line x1="400" y1="450" x2="400" y2="480" class="edge" marker-end="url(#arrow2)"/>
+  <text x="415" y="473" class="edge-label">YO'Q</text>
+
+  <!-- Compute room_subtotal -->
+  <rect x="230" y="480" width="340" height="50" rx="6" class="process"/>
+  <text x="400" y="500" class="label-bold">room_subtotal = rate × nights</text>
+  <text x="400" y="518" class="label-small">(brief talabi: tunlik narx × tunlar)</text>
+
+  <line x1="400" y1="530" x2="400" y2="555" class="edge" marker-end="url(#arrow2)"/>
+
+  <!-- Service subtotal -->
+  <rect x="230" y="555" width="340" height="50" rx="6" class="process"/>
+  <text x="400" y="575" class="label-bold">service_subtotal = sum(order.total)</text>
+  <text x="400" y="593" class="label-small">(xonaga bog'liq barcha xona xizmati to'lovlari)</text>
+
+  <line x1="400" y1="605" x2="400" y2="630" class="edge" marker-end="url(#arrow2)"/>
+
+  <!-- Extras -->
+  <rect x="230" y="630" width="340" height="55" rx="6" class="process"/>
+  <text x="400" y="650" class="label-bold">extras = booking.extra + minibar</text>
+  <text x="400" y="668" class="label">+ (LATE_FEE if late_checkout else 0)</text>
+  <text x="400" y="682" class="label-small">(minibar, kech check-out qo'shimcha to'lovi)</text>
+
+  <line x1="400" y1="685" x2="400" y2="710" class="edge" marker-end="url(#arrow2)"/>
+
+  <!-- Gross + discount -->
+  <rect x="230" y="710" width="340" height="80" rx="6" class="process"/>
+  <text x="400" y="730" class="label-bold">gross = room + service + extras</text>
+  <text x="400" y="748" class="label-bold">discount = gross × pct / 100</text>
+  <text x="400" y="766" class="label-bold">net_total = gross − discount</text>
+  <text x="400" y="782" class="label-small">(Decimal aniqligi: ROUND_HALF_UP, 0.01)</text>
+
+  <line x1="400" y1="790" x2="400" y2="815" class="edge" marker-end="url(#arrow2)"/>
+
+  <!-- Return -->
+  <rect x="230" y="815" width="340" height="40" rx="6" class="process"/>
+  <text x="400" y="840" class="label-bold">RETURN: yorliqlangan bo'limli lug'at</text>
+
+  <line x1="400" y1="855" x2="400" y2="870" class="edge" marker-end="url(#arrow2)"/>
+
+  <ellipse cx="400" cy="885" rx="80" ry="14" class="end"/>
+  <text x="400" y="890" class="label-bold">TUGADI</text>
+</svg>

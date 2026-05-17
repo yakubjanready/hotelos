@@ -1,0 +1,91 @@
+HotelOS algoritm namoyishi
+Sana: 2026-05-17T07:46:19.098103
+
+======================================================================
+  DEMO 1: Xona tayinlash algoritmi — 120 ta xonali inventar
+======================================================================
+Inventarda: 120 xona
+
+[1.1] So'rov: ikki kishilik, 3-qavat afzal, yaqinlik=none
+  -> xona #311
+     Mezon-1 (turi): 'double' -> 42 xona
+     Mezon-2 (tozalik): 42 ta toza
+     Mezon-3 (qavat): 3-qavatda 7 xona
+     Eng uzoq toza bo'yicha tartiblandi
+     Mezon-4: yaqinlik afzalligi yo'q
+     TANLANDI: xona #311 (qavat 3)
+
+[1.2] So'rov: lyuks, liftga yaqin
+  -> xona #119
+     Mezon-1 (turi): 'suite' -> 12 xona
+     Mezon-2 (tozalik): 12 ta toza
+     Mezon-3 (qavat): afzallik yo'q
+     Eng uzoq toza bo'yicha tartiblandi
+     Mezon-4 (lift): 6 ta liftga yaqin
+     TANLANDI: xona #119 (qavat 1)
+
+[1.3] So'rov: nogironlarga moslashtirilgan, 5-qavat
+  -> xona #520
+     Mezon-1 (turi): 'accessible' -> 6 xona
+     Mezon-2 (tozalik): 6 ta toza
+     Mezon-3 (qavat): 5-qavatda 1 xona
+     Eng uzoq toza bo'yicha tartiblandi
+     Mezon-4: yaqinlik afzalligi yo'q
+     TANLANDI: xona #520 (qavat 5)
+
+[1.4] Imkonsiz so'rov: hech bir xona toza emas
+  -> NoRoomAvailableError: toza xona yo'q
+
+======================================================================
+  DEMO 2: Hisob-kitob algoritmi
+======================================================================
+
+[2.1] 3 tunlik ikki kishilik xona
+{
+  "room_subtotal": "375.00",
+  "service_subtotal": "0.00",
+  "extras": "0.00",
+  "gross": "375.00",
+  "discount": "0.00",
+  "net_total": "375.00"
+}
+
+[2.2] 2 tun + minibar + kech check-out
+{
+  "room_subtotal": "250.00",
+  "service_subtotal": "0.00",
+  "extras": "40.00",
+  "gross": "290.00",
+  "discount": "0.00",
+  "net_total": "290.00"
+}
+
+[2.3] 4 tun + xona xizmati 35.50 + 10% chegirma
+{
+  "room_subtotal": "500.00",
+  "service_subtotal": "35.50",
+  "extras": "0.00",
+  "gross": "535.50",
+  "discount": "53.55",
+  "net_total": "481.95"
+}
+
+======================================================================
+  DEMO 3: Texnik xizmat ustuvorlik navbati
+======================================================================
+
+Kiritilgan tartib: ['ISS-001', 'ISS-002', 'ISS-003', 'ISS-004', 'ISS-005', 'ISS-006']
+
+Navbatdan chiqish tartibi (kutilgan: kritiklar FIFO, keyin yuqorilar FIFO, ...):
+  -> ISS-003 [critical] suv qochmoqda (xona 115)
+  -> ISS-006 [critical] elektr o'chgan (xona 119)
+  -> ISS-002 [high    ] konditsioner ishlamayapti (xona 415)
+  -> ISS-005 [high    ] minibar sovutmaydi (xona 622)
+  -> ISS-004 [normal  ] TV pulti yo'q (xona 308)
+  -> ISS-001 [low     ] yorug'lik miltillaydi (xona 220)
+
+  ✓ Kutilgan tartib bilan mos keldi (Critical FIFO -> High FIFO -> Normal -> Low)
+
+======================================================================
+  Barcha demo'lar muvaffaqiyatli yakunlandi ✓
+======================================================================

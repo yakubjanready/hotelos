@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1180" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1e293b"/>
+    </marker>
+    <style>
+      .start { fill: #34d399; stroke: #047857; stroke-width: 2; }
+      .end-success { fill: #34d399; stroke: #047857; stroke-width: 2; }
+      .end-error { fill: #f87171; stroke: #991b1b; stroke-width: 2; }
+      .process { fill: #bfdbfe; stroke: #1e40af; stroke-width: 2; }
+      .decision { fill: #fde68a; stroke: #b45309; stroke-width: 2; }
+      .label { fill: #1e293b; font-weight: 500; text-anchor: middle; }
+      .label-bold { fill: #1e293b; font-weight: 700; text-anchor: middle; }
+      .label-small { fill: #475569; font-size: 11px; text-anchor: middle; }
+      .edge-label { fill: #6b21a8; font-weight: 600; font-size: 11px; }
+      .edge { stroke: #1e293b; stroke-width: 1.5; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Title -->
+  <text x="450" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">
+    1-Rasm: Xona Tayinlash Algoritmi (assign_room) — Blok-Sxema
+  </text>
+  <text x="450" y="50" text-anchor="middle" font-size="12" fill="#64748b">
+    Ko'p mezonli qaror algoritmi: HotelOS Reception Service
+  </text>
+
+  <!-- START -->
+  <ellipse cx="450" cy="90" rx="80" ry="22" class="start"/>
+  <text x="450" y="95" class="label-bold">BOSHLASH</text>
+
+  <line x1="450" y1="112" x2="450" y2="135" class="edge" marker-end="url(#arrow)"/>
+
+  <!-- Input -->
+  <rect x="280" y="135" width="340" height="55" rx="6" class="process"/>
+  <text x="450" y="155" class="label">KIRISH: inventory, requested_type,</text>
+  <text x="450" y="172" class="label">preferred_floor, proximity</text>
+  <text x="450" y="186" class="label-small">(Reception /checkin endpointidan)</text>
+
+  <line x1="450" y1="190" x2="450" y2="215" class="edge" marker-end="url(#arrow)"/>
+
+  <!-- M1: type match -->
+  <polygon points="450,215 620,275 450,335 280,275" class="decision"/>
+  <text x="450" y="270" class="label-bold">MEZON-1</text>
+  <text x="450" y="290" class="label">Xona turi mosligi:</text>
+  <text x="450" y="305" class="label">by_type = filter(room_type)</text>
+  <text x="450" y="320" class="label-small">bo'sh?</text>
+
+  <!-- M1 Yes -> Error1 -->
+  <line x1="620" y1="275" x2="780" y2="275" class="edge" marker-end="url(#arrow)"/>
+  <text x="680" y="270" class="edge-label">HA</text>
+  <rect x="755" y="245" width="135" height="60" rx="6" class="end-error"/>
+  <text x="822" y="265" class="label-bold">XATO</text>
+  <text x="822" y="282" class="label-small">NoRoomAvailable</text>
+  <text x="822" y="297" class="label-small">"turi yo'q"</text>
+
+  <!-- M1 No -> next -->
+  <line x1="450" y1="335" x2="450" y2="365" class="edge" marker-end="url(#arrow)"/>
+  <text x="465" y="355" class="edge-label">YO'Q</text>
+
+  <!-- M2: cleanliness -->
+  <polygon points="450,365 620,425 450,485 280,425" class="decision"/>
+  <text x="450" y="415" class="label-bold">MEZON-2</text>
+  <text x="450" y="435" class="label">Tozalik:</text>
+  <text x="450" y="450" class="label">clean = filter(status == CLEAN)</text>
+  <text x="450" y="465" class="label-small">bo'sh?</text>
+
+  <line x1="620" y1="425" x2="755" y2="425" class="edge" marker-end="url(#arrow)"/>
+  <text x="680" y="420" class="edge-label">HA</text>
+  <rect x="755" y="395" width="135" height="60" rx="6" class="end-error"/>
+  <text x="822" y="415" class="label-bold">XATO</text>
+  <text x="822" y="432" class="label-small">NoRoomAvailable</text>
+  <text x="822" y="447" class="label-small">"toza yo'q"</text>
+
+  <line x1="450" y1="485" x2="450" y2="510" class="edge" marker-end="url(#arrow)"/>
+  <text x="465" y="503" class="edge-label">YO'Q</text>
+
+  <!-- M3: floor preference -->
+  <polygon points="450,510 620,565 450,620 280,565" class="decision"/>
+  <text x="450" y="555" class="label-bold">MEZON-3</text>
+  <text x="450" y="572" class="label">preferred_floor berilgan</text>
+  <text x="450" y="587" class="label">va xonalar bormi?</text>
+
+  <!-- M3 Yes: filter by floor -->
+  <line x1="620" y1="565" x2="700" y2="565" class="edge" marker-end="url(#arrow)"/>
+  <text x="650" y="560" class="edge-label">HA</text>
+  <rect x="700" y="540" width="170" height="50" rx="6" class="process"/>
+  <text x="785" y="560" class="label">filtered =</text>
+  <text x="785" y="577" class="label-small">clean ∩ floor==pref</text>
+  <line x1="785" y1="590" x2="785" y2="650" class="edge"/>
+  <line x1="785" y1="650" x2="450" y2="650" class="edge" marker-end="url(#arrow)"/>
+
+  <!-- M3 No: fallback -->
+  <line x1="450" y1="620" x2="450" y2="650" class="edge" marker-end="url(#arrow)"/>
+  <text x="465" y="640" class="edge-label">YO'Q (fallback)</text>
+
+  <!-- Sort by longest clean -->
+  <rect x="280" y="650" width="340" height="55" rx="6" class="process"/>
+  <text x="450" y="672" class="label-bold">filtered.sort(key=status_changed_at)</text>
+  <text x="450" y="690" class="label-small">Eng uzoq toza birinchi (xonalar ishlatilishini tekis aylantirish)</text>
+
+  <line x1="450" y1="705" x2="450" y2="735" class="edge" marker-end="url(#arrow)"/>
+
+  <!-- M4: proximity -->
+  <polygon points="450,735 620,790 450,845 280,790" class="decision"/>
+  <text x="450" y="780" class="label-bold">MEZON-4</text>
+  <text x="450" y="797" class="label">proximity == NONE?</text>
+
+  <!-- M4 NO branch: try near -->
+  <line x1="280" y1="790" x2="170" y2="790" class="edge" marker-end="url(#arrow)"/>
+  <text x="225" y="785" class="edge-label">YO'Q (lift/stairs)</text>
+  <rect x="35" y="760" width="135" height="65" rx="6" class="process"/>
+  <text x="102" y="780" class="label">near = filter(</text>
+  <text x="102" y="797" class="label">near_lift/stairs)</text>
+  <text x="102" y="813" class="label-small">topilsa: chosen=near[0]</text>
+  <line x1="102" y1="825" x2="102" y2="880" class="edge"/>
+  <line x1="102" y1="880" x2="450" y2="880" class="edge" marker-end="url(#arrow)"/>
+
+  <!-- M4 YES branch -->
+  <line x1="450" y1="845" x2="450" y2="880" class="edge" marker-end="url(#arrow)"/>
+  <text x="465" y="870" class="edge-label">HA</text>
+
+  <!-- Take first from sorted filtered -->
+  <rect x="320" y="880" width="260" height="50" rx="6" class="process"/>
+  <text x="450" y="900" class="label-bold">chosen = filtered[0]</text>
+  <text x="450" y="918" class="label-small">(eng uzoq toza, mos qavat)</text>
+
+  <line x1="450" y1="930" x2="450" y2="960" class="edge" marker-end="url(#arrow)"/>
+
+  <!-- Output -->
+  <rect x="280" y="960" width="340" height="60" rx="6" class="process"/>
+  <text x="450" y="982" class="label-bold">CHIQISH: RoomAssignment(room, reasoning)</text>
+  <text x="450" y="1002" class="label-small">Yon ta'sirlar: kod chaqiruvchisida xona OCCUPIED ga,</text>
+  <text x="450" y="1015" class="label-small">EVT_ROOM_OCCUPIED brokerga nashr etiladi</text>
+
+  <line x1="450" y1="1020" x2="450" y2="1050" class="edge" marker-end="url(#arrow)"/>
+
+  <!-- END -->
+  <ellipse cx="450" cy="1075" rx="80" ry="22" class="end-success"/>
+  <text x="450" y="1080" class="label-bold">TUGADI</text>
+
+  <!-- Legend -->
+  <g transform="translate(35, 1115)">
+    <rect width="22" height="14" class="start"/>
+    <text x="30" y="12" font-size="11" fill="#1e293b">Start/End</text>
+
+    <rect x="100" width="22" height="14" class="process"/>
+    <text x="130" y="12" font-size="11" fill="#1e293b">Jarayon</text>
+
+    <polygon points="220,7 232,0 244,7 232,14" class="decision"/>
+    <text x="252" y="12" font-size="11" fill="#1e293b">Qaror</text>
+
+    <rect x="300" width="22" height="14" class="end-error"/>
+    <text x="330" y="12" font-size="11" fill="#1e293b">Xato chiqishi</text>
+  </g>
+</svg>
